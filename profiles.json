@@ -21,7 +21,7 @@
             "backgroundImage": "ms-appdata:///Local/icons8-powershell-100.png",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.5,
-            "backgroundImageAlignment": "center"
+            "backgroundImageAlignment": "bottomRight"
         },
         {
             // Make changes here to the cmd.exe profile
@@ -36,7 +36,7 @@
             "backgroundImage": "ms-appdata:///Local/icons8-console-100.png",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
-            "backgroundImageAlignment": "center"
+            "backgroundImageAlignment": "bottomRight"
         },
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
@@ -53,7 +53,7 @@
             "backgroundImage": "ms-appdata:///Local/icons8-ubuntu-100.png",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
-            "backgroundImageAlignment": "center"
+            "backgroundImageAlignment": "bottomRight"
         },
         {
             "icon": "ms-appdata:///Local/vs2019.png",
@@ -68,7 +68,7 @@
             "backgroundImage": "ms-appdata:///Local/vs2019.png",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
-            "backgroundImageAlignment": "center"
+            "backgroundImageAlignment": "bottomRight"
         },
         {
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -81,7 +81,7 @@
             "backgroundImage": "ms-appdata:///Local/icons8-azure-100.png",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
-            "backgroundImageAlignment": "center"
+            "backgroundImageAlignment": "bottomRight"
         }
     ],
     // Add custom color schemes to this array
