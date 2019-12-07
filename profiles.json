@@ -11,7 +11,7 @@
             "commandline": "powershell.exe",
             "hidden": false,
             "background": "#111111",
-            "fontFace": "Fira Code Retina",
+            "fontFace": "Fira Code",
             "fontSize": 10,
             "useAcrylic": true,
             "acrylicOpacity": 0.8
@@ -22,7 +22,7 @@
             "name": "cmd",
             "commandline": "cmd.exe",
             "hidden": false,
-            "fontFace": "Fira Code Retina",
+            "fontFace": "Fira Code",
             "fontSize": 10,
             "useAcrylic": true,
             "acrylicOpacity": 0.8
@@ -34,7 +34,7 @@
             "foreground": "#ffffff",
             "name": "Ubuntu",
             "source": "Windows.Terminal.Wsl",
-            "fontFace": "Fira Code Retina",
+            "fontFace": "Fira Code",
             "fontSize": 10,
             "useAcrylic": true,
             "acrylicOpacity": 0.8
@@ -44,7 +44,7 @@
             "backgroundImageOpacity": 0.5,
             "name": "Visual Studio PowerShell",
             "hidden": false,
-            "fontFace": "Fira Code Retina",
+            "fontFace": "Fira Code",
             "fontSize": 10,
             "useAcrylic": true,
             "acrylicOpacity": 0.8,
