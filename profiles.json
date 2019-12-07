@@ -3,6 +3,9 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "initialCols": 120,
+    "initialRows": 45,
+    "requestedTheme": "dark",
     "profiles": [
         {
             // Make changes here to the powershell.exe profile
@@ -14,7 +17,11 @@
             "fontFace": "Fira Code",
             "fontSize": 10,
             "useAcrylic": true,
-            "acrylicOpacity": 0.8
+            "acrylicOpacity": 0.8,
+            "backgroundImage": "ms-appdata:///Local/icons8-powershell-100.png",
+            "backgroundImageStretchMode": "none",
+            "backgroundImageOpacity": 0.3,
+            "backgroundImageAlignment": "center"
         },
         {
             // Make changes here to the cmd.exe profile
@@ -25,23 +32,31 @@
             "fontFace": "Fira Code",
             "fontSize": 10,
             "useAcrylic": true,
-            "acrylicOpacity": 0.8
+            "acrylicOpacity": 0.8,
+            "backgroundImage": "ms-appdata:///Local/icons8-console-100.png",
+            "backgroundImageStretchMode": "none",
+            "backgroundImageOpacity": 0.3,
+            "backgroundImageAlignment": "center"
         },
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "icon": "ms-appdata:///Local/ubuntu.png",
+            "icon": "ms-appdata:///Local/icons8-ubuntu-100.png",
             "hidden": false,
             "foreground": "#ffffff",
+            "colorScheme": "One Half Dark",
             "name": "Ubuntu",
             "source": "Windows.Terminal.Wsl",
             "fontFace": "Fira Code",
             "fontSize": 10,
             "useAcrylic": true,
-            "acrylicOpacity": 0.8
+            "acrylicOpacity": 0.8,
+            "backgroundImage": "ms-appdata:///Local/icons8-ubuntu-100.png",
+            "backgroundImageStretchMode": "none",
+            "backgroundImageOpacity": 0.3,
+            "backgroundImageAlignment": "center"
         },
         {
             "icon": "ms-appdata:///Local/vs2019.png",
-            "backgroundImageOpacity": 0.5,
             "name": "Visual Studio PowerShell",
             "hidden": false,
             "fontFace": "Fira Code",
@@ -49,13 +64,24 @@
             "useAcrylic": true,
             "acrylicOpacity": 0.8,
             "commandline": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe -noe %localappdata%\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\vsdevposh.ps1 ",
-            "background": "#38214F"
+            "background": "#1c1027",
+            "backgroundImage": "ms-appdata:///Local/vs2019.png",
+            "backgroundImageStretchMode": "none",
+            "backgroundImageOpacity": 0.3,
+            "backgroundImageAlignment": "center"
         },
         {
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-            "hidden": true,
             "name": "Azure Cloud Shell",
-            "source": "Windows.Terminal.Azure"
+            "source": "Windows.Terminal.Azure",
+            "fontFace": "Fira Code",
+            "fontSize": 10,
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8,
+            "backgroundImage": "ms-appdata:///Local/icons8-azure-100.png",
+            "backgroundImageStretchMode": "none",
+            "backgroundImageOpacity": 0.3,
+            "backgroundImageAlignment": "center"
         }
     ],
     // Add custom color schemes to this array
@@ -73,18 +99,6 @@
             "command": "paste",
             "keys": [
                 "ctrl+v"
-            ]
-        },
-        {
-            "command": "unbound",
-            "keys": [
-                "ctrl+shift+c"
-            ]
-        },
-        {
-            "command": "unbound",
-            "keys": [
-                "ctrl+shift+v"
             ]
         }
     ]
