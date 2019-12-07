@@ -48,7 +48,7 @@
             "fontSize": 10,
             "useAcrylic": true,
             "acrylicOpacity": 0.8,
-            "commandline": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe -noe -c \"&{Import-Module \"\"\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell 326f9ee6}\"",
+            "commandline": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe -noe %localappdata%\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\vsdevposh.ps1 ",
             "background": "#38214F"
         },
         {
