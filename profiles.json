@@ -43,7 +43,6 @@
             "icon": "ms-appdata:///Local/icons8-ubuntu-100.png",
             "hidden": false,
             "foreground": "#ffffff",
-            "colorScheme": "One Half Dark",
             "name": "Ubuntu",
             "source": "Windows.Terminal.Wsl",
             "fontFace": "Fira Code",
