@@ -72,6 +72,12 @@
             "keys": [
                 "ctrl+v"
             ]
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": [
+                "ctrl+shift+n"
+            ]
         }
     ]
 }
