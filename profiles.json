@@ -9,9 +9,10 @@
     "profiles": {
         "defaults": {
             "useAcrylic": true,
-            "acrylicOpacity": 0.8,
+            "acrylicOpacity": 0.6,
             "fontFace": "Fira Code",
             "fontSize": 10,
+            "foreground": "#eee",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
             "backgroundImageAlignment": "bottomRight"
@@ -53,6 +54,15 @@
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure",
                 "backgroundImage": "ms-appdata:///Local/icons8-azure-100.png"
+            },
+            {
+                // Make changes here to the powershell.exe profile
+                "guid": "{15d90ab5-0585-4dd8-aed4-459cfa228a51}",
+                "name": "Retro PowerShell",
+                "commandline": "powershell.exe",
+                "fontSize": 14,
+                "experimental.retroTerminalEffect": true,
+                "backgroundImage": "ms-appdata:///Local/icons8-powershell-100.png"
             }
         ]
     },
