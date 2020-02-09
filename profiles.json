@@ -13,6 +13,7 @@
             "fontFace": "Fira Code",
             "fontSize": 10,
             "foreground": "#eee",
+            "colorScheme": "CHampbell",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
             "backgroundImageAlignment": "bottomRight"
@@ -44,7 +45,7 @@
             {
                 "guid": "{767809b5-391e-4f87-8ccd-7a35b74bc4f1}",
                 "icon": "ms-appdata:///Local/vs2019.png",
-                "name": "Visual Studio PowerShell",
+                "name": "Visual Studio Powershell",
                 "commandline": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe -noe %localappdata%\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\vsdevposh.ps1 ",
                 "background": "#1c1027",
                 "backgroundImage": "ms-appdata:///Local/vs2019.png"
@@ -60,6 +61,7 @@
                 "guid": "{15d90ab5-0585-4dd8-aed4-459cfa228a51}",
                 "name": "Retro PowerShell",
                 "commandline": "powershell.exe",
+                "colorScheme": "Campbell",
                 "fontSize": 14,
                 "experimental.retroTerminalEffect": true,
                 "backgroundImage": "ms-appdata:///Local/icons8-powershell-100.png"
@@ -67,7 +69,29 @@
         ]
     },
     // Add custom color schemes to this array
-    "schemes": [],
+    "schemes": [
+        {
+            "name": "CHampbell",
+            "foreground": "#CCCCCC",
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "red": "#C50F1F",
+            "green": "#13A10E",
+            "yellow": "#C19C00",
+            "blue": "#0037DA",
+            "purple": "#881798",
+            "cyan": "#3A96DD",
+            "white": "#CCCCCC",
+            "brightBlack": "#C0C0C0",
+            "brightRed": "#E74856",
+            "brightGreen": "#16C60C",
+            "brightYellow": "#F9F1A5",
+            "brightBlue": "#3B78FF",
+            "brightPurple": "#B4009E",
+            "brightCyan": "#61D6D6",
+            "brightWhite": "#F2F2F2"
+        }
+    ],
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
     "keybindings": [
@@ -81,12 +105,6 @@
             "command": "paste",
             "keys": [
                 "ctrl+v"
-            ]
-        },
-        {
-            "command": "openNewTabDropdown",
-            "keys": [
-                "ctrl+shift+n"
             ]
         }
     ]
