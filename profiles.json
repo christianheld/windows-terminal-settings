@@ -13,10 +13,12 @@
             "fontFace": "Fira Code",
             "fontSize": 10,
             "foreground": "#eee",
-            "colorScheme": "CHampbell",
+            "colorScheme": "CH",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
-            "backgroundImageAlignment": "bottomRight"
+            "backgroundImageAlignment": "bottomRight",
+            "cursorShape": "underscore",
+            "historySize": 9001
         },
         "list": [
             {
@@ -71,24 +73,24 @@
     // Add custom color schemes to this array
     "schemes": [
         {
-            "name": "CHampbell",
+            "name": "CH",
             "foreground": "#CCCCCC",
             "background": "#0C0C0C",
             "black": "#0C0C0C",
             "red": "#C50F1F",
             "green": "#13A10E",
             "yellow": "#C19C00",
-            "blue": "#0037DA",
+            "blue": "#6699cc",
             "purple": "#881798",
-            "cyan": "#3A96DD",
+            "cyan": "#66cccc",
             "white": "#CCCCCC",
             "brightBlack": "#C0C0C0",
             "brightRed": "#E74856",
             "brightGreen": "#16C60C",
             "brightYellow": "#F9F1A5",
-            "brightBlue": "#3B78FF",
+            "brightBlue": "#6699cc",
             "brightPurple": "#B4009E",
-            "brightCyan": "#61D6D6",
+            "brightCyan": "#66cccc",
             "brightWhite": "#F2F2F2"
         }
     ],
