@@ -10,10 +10,8 @@
         "defaults": {
             "useAcrylic": true,
             "acrylicOpacity": 0.6,
-            "fontFace": "Fira Code",
             "fontSize": 10,
-            "foreground": "#eee",
-            "colorScheme": "CH",
+            "colorScheme": "Tango Dark",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
             "backgroundImageAlignment": "bottomRight",
@@ -26,7 +24,7 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
-                "background": "#111111",
+                //"background": "#111111",
                 "backgroundImage": "ms-appdata:///Local/pwsh.png"
             },
             {
@@ -34,7 +32,6 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
-                "background": "#111111",
                 "backgroundImage": "ms-appdata:///Local/icons8-powershell-100.png"
             },
             {
@@ -109,6 +106,7 @@
             "brightWhite": "#F2F2F2"
         },
         {
+            "name":  "UbuntuLegit",
             "background":  "#2C001E",
             "black":  "#4E9A06",
             "blue":  "#3465A4",
@@ -123,7 +121,6 @@
             "cyan":  "#06989A",
             "foreground":  "#EEEEEE",
             "green":  "#300A24",
-            "name":  "UbuntuLegit",
             "purple":  "#75507B",
             "red":  "#CC0000",
             "white":  "#D3D7CF",
