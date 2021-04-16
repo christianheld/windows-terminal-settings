@@ -16,7 +16,8 @@
             "backgroundImageOpacity": 0.3,
             "backgroundImageAlignment": "bottomRight",
             "cursorShape": "underscore",
-            "historySize": 9001
+            "historySize": 9001,
+            "fontFace": "CaskaydiaCove NF"
         },
         "list": [
             {
@@ -70,6 +71,7 @@
                 "name": "Retro PowerShell",
                 "commandline": "powershell.exe",
                 "colorScheme": "Campbell",
+                "foreground": "#00ff00",
                 "fontSize": 14,
                 "experimental.retroTerminalEffect": true,
                 "backgroundImage": "ms-appdata:///Local/icons8-powershell-100.png"
