@@ -9,7 +9,7 @@
     "profiles": {
         "defaults": {
             "useAcrylic": true,
-            "acrylicOpacity": 0.6,
+            "acrylicOpacity": 0.7,
             "fontSize": 10,
             "colorScheme": "CH",
             "backgroundImageStretchMode": "none",
@@ -17,7 +17,8 @@
             "backgroundImageAlignment": "bottomRight",
             "cursorShape": "underscore",
             "historySize": 9001,
-            "fontFace": "CaskaydiaCove NF"
+            "fontFace": "CaskaydiaCove NF",
+            "antialiasingMode": "cleartype"
         },
         "list": [
             {
@@ -33,6 +34,7 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
+                "background": "#000E23",
                 "backgroundImage": "ms-appdata:///Local/icons8-powershell-100.png"
             },
             {
@@ -47,6 +49,16 @@
                 "icon": "ms-appdata:///Local/icons8-ubuntu-100.png",
                 "foreground": "#ffffff",
                 "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "colorScheme": "UbuntuLegit",
+                "backgroundImage": "ms-appdata:///Local/icons8-ubuntu-100.png"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "icon": "ms-appdata:///Local/icons8-ubuntu-100.png",
+                "foreground": "#ffffff",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
                 "source": "Windows.Terminal.Wsl",
                 "colorScheme": "UbuntuLegit",
                 "backgroundImage": "ms-appdata:///Local/icons8-ubuntu-100.png"
@@ -81,6 +93,12 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
