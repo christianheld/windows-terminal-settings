@@ -9,7 +9,7 @@
     "profiles": {
         "defaults": {
             "useAcrylic": true,
-            "acrylicOpacity": 0.7,
+            "acrylicOpacity": 0.8,
             "fontSize": 10,
             "colorScheme": "CH",
             "backgroundImageStretchMode": "none",
@@ -26,7 +26,6 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
-                //"background": "#111111",
                 "backgroundImage": "ms-appdata:///Local/pwsh.png"
             },
             {
@@ -107,7 +106,7 @@
         {
             "name": "CH",
             "foreground": "#CCCCCC",
-            "background": "#0C0C0C",
+            "background": "#000002",
             "black": "#0C0C0C",
             "red": "#C50F1F",
             "green": "#13A10E",
