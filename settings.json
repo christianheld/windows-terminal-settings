@@ -41,6 +41,8 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "cmd",
                 "commandline": "cmd.exe",
+                "background": "#000000",
+                "useAcrylic": true,
                 "backgroundImage": "ms-appdata:///Local/icons8-console-100.png"
             },
             {
