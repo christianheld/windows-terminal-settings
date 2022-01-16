@@ -11,7 +11,8 @@
             "useAcrylic": true,
             "acrylicOpacity": 0.8,
             "fontSize": 10,
-            "colorScheme": "CH",
+            "colorScheme": "Campbell",
+            "background": "#000002",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
             "backgroundImageAlignment": "bottomRight",
@@ -105,27 +106,6 @@
     },
     // Add custom color schemes to this array
     "schemes": [
-        {
-            "name": "CH",
-            "foreground": "#CCCCCC",
-            "background": "#000002",
-            "black": "#0C0C0C",
-            "red": "#C50F1F",
-            "green": "#13A10E",
-            "yellow": "#C19C00",
-            "blue": "#6699cc",
-            "purple": "#881798",
-            "cyan": "#66cccc",
-            "white": "#CCCCCC",
-            "brightBlack": "#C0C0C0",
-            "brightRed": "#E74856",
-            "brightGreen": "#16C60C",
-            "brightYellow": "#F9F1A5",
-            "brightBlue": "#6699cc",
-            "brightPurple": "#B4009E",
-            "brightCyan": "#66cccc",
-            "brightWhite": "#F2F2F2"
-        },
         {
             "name":  "UbuntuLegit",
             "background":  "#2C001E",
