@@ -12,7 +12,6 @@
             "acrylicOpacity": 0.8,
             "fontSize": 10,
             "colorScheme": "Campbell",
-            "background": "#000002",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
             "backgroundImageAlignment": "bottomRight",
@@ -27,7 +26,8 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
-                "backgroundImage": "ms-appdata:///Local/pwsh.png"
+                "backgroundImage": "ms-appdata:///Local/pwsh.png",
+                "background": "#000002",
             },
             {
                 // Make changes here to the powershell.exe profile
@@ -77,7 +77,8 @@
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure",
-                "backgroundImage": "ms-appdata:///Local/icons8-azure-100.png"
+                "backgroundImage": "ms-appdata:///Local/icons8-azure-100.png",
+                "background": "#000002",
             },
             {
                 // Make changes here to the powershell.exe profile
