@@ -9,8 +9,8 @@
     "profiles": {
         "defaults": {
             "useAcrylic": true,
-            "acrylicOpacity": 0.8,
-            "fontSize": 10,
+            "acrylicOpacity": 0.6,
+            "fontSize": 11,
             "colorScheme": "Campbell",
             "backgroundImageStretchMode": "none",
             "backgroundImageOpacity": 0.3,
